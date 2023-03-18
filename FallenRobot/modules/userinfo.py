@@ -280,7 +280,7 @@ def info(update: Update, context: CallbackContext):
     if user.id == OWNER_ID:
         text += "\n\nᴛʜᴇ ᴅɪsᴀsᴛᴇʀ ʟᴇᴠᴇʟ ᴏғ ᴛʜɪs ᴜsᴇʀ ɪs <b>ɢᴏᴅ</b>.\n"
     elif user.id in DEV_USERS:
-        text += "\n\nᴛʜɪs ᴜsᴇʀ ɪs ᴀ ᴍᴇᴍʙᴇʀ ᴏғ <b>LIGU ᴀssᴏᴄɪᴀᴛɪᴏɴ</b>.\n"
+        text += "\n\nᴛʜɪs ᴜsᴇʀ ɪs ᴀ ᴍᴇᴍʙᴇʀ ᴏғ <b>𝗧𝗘𝗔𝗠 𝗕𝗟𝗔𝗖𝗞</b>.\n"
     elif user.id in DRAGONS:
         text += "\n\nᴛʜᴇ ᴅɪsᴀsᴛᴇʀ ʟᴇᴠᴇʟ ᴏғ ᴛʜɪs ᴜsᴇʀ ɪs <b>ᴅʀᴀɢᴏɴ</b>.\n"
     elif user.id in DEMONS:
@@ -324,10 +324,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ᴄʜᴀɴɴᴀʟ", url="https://t.me/liguUpdates"
+                                "𝗧𝗘𝗔𝗠 𝗕𝗟𝗔𝗖𝗞", url="https://t.me/BLACK_NETWORK_OFFICIAL"
                             ),
                             InlineKeyboardButton(
-                                "ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/Fed_Liger"
+                                "ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/BLACK_CHATTING_HUB"
                             ),
                         ],
                     ]
