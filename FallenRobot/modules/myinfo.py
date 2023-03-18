@@ -11,11 +11,11 @@ from FallenRobot.events import register
 
 edit_time = 5
 """ =======================FALLEN ROBOT====================== """
-file1 = "https://te.legra.ph/file/4bb026395f51c859a19a8.jpg"
-file2 = "https://te.legra.ph/file/e95dfa1aca5f3594c01ae.jpg"
-file3 = "https://te.legra.ph/file/19833015e6ee953c10e4c.jpg"
-file4 = "https://te.legra.ph/file/83fb9238dbb60ee90e920.jpg"
-file5 = "https://te.legra.ph/file/8a3b4e08948e35680dd42.jpg"
+file1 = "https://te.legra.ph/file/909e66a4fdc30efc0d95f.png"
+file2 = "https://te.legra.ph/file/bd4c18645dee66d221aca.jpg"
+file3 = "https://te.legra.ph/file/b5394e1f0c17147491aca.jpg"
+file4 = "https://te.legra.ph/file/931fa3cb0d315952c4221.jpg"
+file5 = "https://te.legra.ph/file/64e8a36239a70a2e3f7fa.jpg"
 """ =======================FALLEN ROBOT====================== """
 
 
@@ -65,7 +65,7 @@ async def callback_query_handler(event):
     try:
         boy = event.sender_id
         PRO = await bot.get_entity(boy)
-        LILIE = "MADE WITH ❣️ BY 😈LIGER😈 \n\n"
+        LILIE = "MADE WITH ❣️ BY 😈𝗧𝗘𝗔𝗠 𝗕𝗟𝗔𝗖𝗞😈 \n\n"
         LILIE += f"FIRST NAME : {PRO.first_name} \n"
         LILIE += f"LAST NAME : {PRO.last_name}\n"
         LILIE += f"YOU BOT : {PRO.bot} \n"
